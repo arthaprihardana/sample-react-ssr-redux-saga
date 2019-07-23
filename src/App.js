@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Loadable from 'react-loadable';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router';
-import { Route, Switch, NavLink, BrowserRouter } from 'react-router-dom';
+import { Route, Switch, NavLink } from 'react-router-dom';
 
 import { setMessage } from 'actions';
 
