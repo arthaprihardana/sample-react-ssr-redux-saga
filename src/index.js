@@ -6,10 +6,10 @@ import { BrowserRouter } from 'react-router-dom';
 
 import './index.css';
 import App from './App';
-import configureStore from 'store/configureStore';
+import configureStore from 'store';
 // import registerServiceWorker from './registerServiceWorker';
 
-const store = configureStore( window.__REDUX_STATE__ || {} );
+const store = configureStore();
 
 const AppBundle = (
     <ReduxProvider store={store}>
